@@ -23,7 +23,7 @@ def uncensored_ai(messages: typing.List[typing.Dict[str, str]]) -> typing.Union[
         result (Union[str, None]): result or None in failure
     """
     # Base URL for provider API
-    url: str = "https://creativeai-68gw.onrender.com/chat"
+    url: str = "https://api.openai.com/v1/chat/completions"
 
     # Request data
     data: typing.Dict[str, typing.Any] = {
